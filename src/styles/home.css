@@ -201,7 +201,7 @@
 /** MORE ACCESSORIES AND REVIEW MEDIA QUERY*/
 /*******************************************************/
 /** MORE ACCESSORIES AND REVIEW MEDIA QUERY*/
-@media screen and (max-width:320px) {
+@media screen and (max-width:350px) {
     .display-images {
         /* flex-direction: column; */
         height: 250px;
