@@ -77,3 +77,10 @@
 
 
 /**MEDIA QUERY*/
+@media screen and (min-width:700px){
+    .footer-center{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

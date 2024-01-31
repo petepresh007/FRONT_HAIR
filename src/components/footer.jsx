@@ -84,9 +84,9 @@ export const FooterComponent = () => {
                 </div>
             </div>
 
-            <div className="copyright">
+            {/* <div className="copyright">
                 <h5>&copy;Copyright HairNation, {new Date().getFullYear()} All right reserved</h5>
-            </div>
+            </div> */}
         </div>
     )
 }

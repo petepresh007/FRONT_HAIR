@@ -99,6 +99,9 @@ function App() {
       <footer className='footer w-full bg-black h-20 text-white'>
         <h1>Reviews</h1>
         <FooterComponent />
+        <div className="copyright">
+          <h5>&copy;Copyright HairNation, {new Date().getFullYear()} All right reserved</h5>
+        </div>
       </footer>
     </>
   )
