@@ -1,0 +1,1 @@
+export const AllProducts = () => <p>All Products</p>

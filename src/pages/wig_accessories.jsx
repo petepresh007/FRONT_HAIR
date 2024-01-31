@@ -1,0 +1,1 @@
+export const WigAccessories = () => <p>wig WigAccessories</p>

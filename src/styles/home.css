@@ -1,0 +1,254 @@
+.home {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.home-center .item {
+    max-width: 250px;
+    padding: .5rem;
+}
+
+.home-center .item img {
+    width: 100%;
+    height: 200px;
+}
+
+.home-center .item p,
+.home-center .item .rating,
+.home-center .item button {
+    padding: .3rem;
+}
+
+.home-center .item .rating {
+    display: flex;
+}
+
+.home-center .item {
+    background: white;
+}
+
+.home-center .item button {
+    width: 100%;
+    padding: .5rem;
+    background: gray;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.display-images {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    gap: 1rem;
+}
+
+.display-images section {
+    width: 300px;
+    max-width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    font-size: .1.5rem;
+    color: white;
+}
+
+.display-images section img {
+    width: 100%;
+    opacity: .8;
+}
+
+.item-desc {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+.home-center {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+}
+
+.home-center .item {
+    flex: 1;
+}
+
+
+
+.more-colletions {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.more-collection-center {
+    display: flex;
+    gap: .4rem;
+    flex-wrap: wrap;
+}
+
+.more-collection-center section {
+    width: 200px;
+    max-width: 200px;
+    height: 200px;
+    background-color: white;
+    padding: .2rem;
+    position: relative;
+}
+
+.more-collection-center section img {
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+    z-index: 0;
+}
+
+.more-collection-center section p {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+/*More Accesories*/
+.more-accessories-center {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.more-accessories-center section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    width: 100;
+    object-fit: cover;
+}
+
+.more-accessories-center section img {
+    width: 100%;
+}
+
+.more-accessories-center section button {
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.btn-container .next {
+    margin-left: 85%;
+}
+
+.more-accessories-center section p {
+    position: absolute;
+    top: 0;
+}
+
+.wig-btn {
+    display: none;
+}
+
+.show-wig-btn {
+    color: black;
+    z-index: 1;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    background: gray;
+    color: white;
+    padding-left: .2rem;
+    padding-right: .2rem;
+    font-size: .6rem;
+    width: 50%;
+    display: block;
+}
+/**MORE ACCESSORIES END*/
+/**REVIEW*/
+.review{
+    background: white;
+    width: 100%;
+    max-height: 300px;
+    padding: .7rem;
+    overflow: hidden;
+    border-radius: 4px;
+    font-size: .9rem;
+}
+.review-center h1{
+    margin-bottom: .5rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.review img{
+    width: 60px;
+    border-radius: 60px;
+}
+.review-name-img{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: .5rem;
+}
+/**REVIEW END*/
+
+/** MORE ACCESSORIES AND REVIEW MEDIA QUERY*/
+/*******************************************************/
+/** MORE ACCESSORIES AND REVIEW MEDIA QUERY*/
+@media screen and (max-width:320px) {
+    .display-images {
+        /* flex-direction: column; */
+        height: 250px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        border: 1px solid black;
+    }
+
+    .display-images section {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .home-center .item {
+        font-size: 12px;
+        padding: .4rem;
+    }
+
+    .home-center .item img {
+        height: 130px;
+    }
+
+    .home-center .item p,
+    .home-center .item .rating,
+    .home-center .item button {
+        padding: .4rem;
+    }
+
+    .home-center {
+        flex-direction: column;
+    }
+
+    .more-collection-center section {
+        width: 120px;
+        height: 90px;
+    }
+
+    .more-collection-center section p {
+        font-size: .7rem;
+    }
+
+    .more-collection-center {
+        gap: .2rem;
+    }
+}
