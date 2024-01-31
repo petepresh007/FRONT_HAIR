@@ -169,9 +169,10 @@
     width: 50%;
     display: block;
 }
+
 /**MORE ACCESSORIES END*/
 /**REVIEW*/
-.review{
+.review {
     background: white;
     width: 100%;
     max-height: 300px;
@@ -180,28 +181,31 @@
     border-radius: 4px;
     font-size: .9rem;
 }
-.review-center h1{
+
+.review-center h1 {
     margin-bottom: .5rem;
     text-align: center;
     font-size: 1.6rem;
 }
 
-.review img{
+.review img {
     width: 60px;
     border-radius: 60px;
 }
-.review-name-img{
+
+.review-name-img {
     display: flex;
     align-items: center;
     gap: 3rem;
     margin-bottom: .5rem;
 }
+
 /**REVIEW END*/
 
 /** MORE ACCESSORIES AND REVIEW MEDIA QUERY*/
 /*******************************************************/
 /** MORE ACCESSORIES AND REVIEW MEDIA QUERY*/
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
     .display-images {
         /* flex-direction: column; */
         height: 250px;
